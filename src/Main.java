@@ -2,9 +2,7 @@ import java.util.Scanner;//TIP To <b>Run</b> code, press <shortcut actionId="Run
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your score : ");
-        float mark = sc.nextFloat();
+        int mark = 90;
         if (mark >= 90)
             System.out.println("Grade S");
         else if(mark >= 80 && mark < 90) {
